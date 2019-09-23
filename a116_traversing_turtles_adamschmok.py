@@ -25,6 +25,8 @@ for t in my_turtles:
     t.pendown()
     t.right(45)     
     t.forward(50)
+    t.xcor(startx)
+    t.ycor(starty)
 
 #	adds 50 to the start coordinates
     startx = startx + 50
